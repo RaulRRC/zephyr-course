@@ -9,7 +9,7 @@ config APP_HEARTBEAT_PERIOD_MS
 	default 500
 	range 100 2000
 	help
-	  Set LED blinking period range (100 - 200) ms 
+	  Set LED blinking period range (100 - 2000) ms 
 
 endif # LED_SUBSYSTEM 
 source "Kconfig.zephyr"
