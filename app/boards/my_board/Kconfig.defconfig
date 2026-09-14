@@ -1,0 +1,2 @@
+config BOARD_MY_BOARD
+    select BOARD_EALY_INIT_HOOK
