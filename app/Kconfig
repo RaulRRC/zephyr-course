@@ -6,10 +6,16 @@ if LED_SUBSYSTEM
 
 config APP_HEARTBEAT_PERIOD_MS
 	int "LED blinking period in ms"
-	default 500
-	range 100 2000
+	default 250 if BLINK_SLEEP_250MS
+	default 1000 if BLINK_SLEEP_1000S
+	default 2000 if BLINK_SLEEP_2000MS
+	default 0
+
 	help
-	  Set LED blinking period range (100 - 2000) ms 
+	  Set LED blinking Sleep time 0, 250, 1000 ,2000 ms 
+
+
 
 endif # LED_SUBSYSTEM 
 source "Kconfig.zephyr"
+rsource "drivers/our_driver/Kconfig"
