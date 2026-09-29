@@ -37,8 +37,11 @@ static int channel_fetch_my_impl(const struct device *dev,
     const struct our_driver_config *cfg = dev->config;
     struct our_driver_data *data = dev->data;
     int ret;
+
     data->led_on = !data->led_on;
+
     ret = gpio_pin_set_dt(&cfg->led, data->led_on);
+    
     if (ret < 0) {
         LOG_ERR("Failed to set LED (%d)", ret);
         return ret;
