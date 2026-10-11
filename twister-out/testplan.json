@@ -4,7 +4,7 @@
         "zephyr_version":"v4.4.0",
         "toolchain":"zephyr/gnu",
         "commit_date":"2026-04-14T14:45:49-05:00",
-        "run_date":"2026-10-11T21:15:16+00:00",
+        "run_date":"2026-10-11T23:25:10+00:00",
         "options":{
             "help":null,
             "zephyr_base":null,
@@ -15,6 +15,13 @@
             ],
             "platform":[
                 "qemu_x86"
+            ],
+            "enable_coverage":true,
+            "coverage":true,
+            "gcov_tool":"C:\\Users\\rrive\\zephyr-sdk-1.0.1\\gnu\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcov.exe",
+            "coverage_basedir":"app/modules/ring_buf",
+            "coverage_platform":[
+                "qemu_x86"
             ]
         }
     },
@@ -24,7 +31,7 @@
             "arch":"x86",
             "platform":"qemu_x86/atom",
             "path":"..\\..\\zephyr-course\\tests\\ring_buf",
-            "run_id":"39af78c6b63756f0a3fb76d7128ca1d6",
+            "run_id":"018b245496f768b0d9412d9086429987",
             "runnable":true,
             "retries":0,
             "toolchain":"zephyr/gnu",
@@ -32,22 +39,6 @@
             "reason":"Unknown Instance status",
             "build_time":"0.00",
             "testcases":[
-                {
-                    "identifier":"homework.unit.ring_buf.ring_buf_push_pop.single_push_pop",
-                    "status":"None"
-                },
-                {
-                    "identifier":"homework.unit.ring_buf.ring_buf_push_pop.push_full_returns_enospc",
-                    "status":"None"
-                },
-                {
-                    "identifier":"homework.unit.ring_buf.ring_buf_boundaries.peek_does_not_consume",
-                    "status":"None"
-                },
-                {
-                    "identifier":"homework.unit.ring_buf.ring_buf_push_pop.fifo_order",
-                    "status":"None"
-                },
                 {
                     "identifier":"homework.unit.ring_buf.ring_buf_boundaries.pop_null_returns_einval",
                     "status":"None"
@@ -57,11 +48,27 @@
                     "status":"None"
                 },
                 {
-                    "identifier":"homework.unit.ring_buf.ring_buf_init.fresh_state",
+                    "identifier":"homework.unit.ring_buf.ring_buf_boundaries.peek_does_not_consume",
+                    "status":"None"
+                },
+                {
+                    "identifier":"homework.unit.ring_buf.ring_buf_push_pop.single_push_pop",
                     "status":"None"
                 },
                 {
                     "identifier":"homework.unit.ring_buf.ring_buf_init.reinit_clears_state",
+                    "status":"None"
+                },
+                {
+                    "identifier":"homework.unit.ring_buf.ring_buf_push_pop.fifo_order",
+                    "status":"None"
+                },
+                {
+                    "identifier":"homework.unit.ring_buf.ring_buf_init.fresh_state",
+                    "status":"None"
+                },
+                {
+                    "identifier":"homework.unit.ring_buf.ring_buf_push_pop.push_full_returns_enospc",
                     "status":"None"
                 }
             ]
