@@ -81,7 +81,7 @@ rule C_COMPILER__zephyr_pre0_unscanned_
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__zephyr_pre0_
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\rrive\zephyr-sdk-1.0.1\gnu\x86_64-zephyr-elf\bin\x86_64-zephyr-elf-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/14.3.0/32/soft-float/space" -lc -lgcc && $POST_BUILD"
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\rrive\zephyr-sdk-1.0.1\gnu\x86_64-zephyr-elf\bin\x86_64-zephyr-elf-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/14.3.0/32/soft-float" -lc -lgcc && $POST_BUILD"
   description = Linking C executable $TARGET_FILE; Logical command for additional byproducts on target: zephyr_pre0
   restat = $RESTAT
 
@@ -100,7 +100,7 @@ rule C_COMPILER__zephyr_final_unscanned_
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__zephyr_final_
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\rrive\zephyr-sdk-1.0.1\gnu\x86_64-zephyr-elf\bin\x86_64-zephyr-elf-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/14.3.0/32/soft-float/space" -lc -lgcc && $POST_BUILD"
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\rrive\zephyr-sdk-1.0.1\gnu\x86_64-zephyr-elf\bin\x86_64-zephyr-elf-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/14.3.0/32/soft-float" -lc -lgcc && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 

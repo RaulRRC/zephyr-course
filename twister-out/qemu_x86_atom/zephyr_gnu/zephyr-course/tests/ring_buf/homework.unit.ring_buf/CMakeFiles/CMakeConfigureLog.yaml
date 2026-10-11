@@ -131,7 +131,6 @@ events:
     search_context:
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -183,7 +182,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find_package-v1"
     backtrace:
@@ -282,7 +280,6 @@ events:
     search_context:
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -334,7 +331,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -376,7 +372,6 @@ events:
     search_context:
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -428,7 +423,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -502,7 +496,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/ccache.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/ccache.exe"
@@ -657,13 +650,9 @@ events:
       - "C:/NXP/LinkServer_26.9.130/ccache.com"
       - "C:/NXP/LinkServer_26.9.130/ccache.exe"
       - "C:/NXP/LinkServer_26.9.130/ccache"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/ccache.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/ccache.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/ccache"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -716,7 +705,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find_package-v1"
     backtrace:
@@ -1971,30 +1959,6 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/Zephyr-sdkConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/zephyr-sdk-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/lib/cps/Zephyr-sdk.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/lib/cps/zephyr-sdk.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/share/cps/Zephyr-sdk.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/share/cps/zephyr-sdk.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
         path: "C:/Users/rrive/zephyr-sdk-1.0.1/cmake/Zephyr-sdkConfig.cmake"
         mode: "config"
         reason: "insufficient_version"
@@ -2022,7 +1986,6 @@ events:
     found: null
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -2075,7 +2038,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2159,7 +2121,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/gperf.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/gperf.exe"
@@ -2338,7 +2299,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -2390,7 +2350,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2474,7 +2433,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/openocd.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/openocd.exe"
@@ -2502,7 +2460,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu-arc"
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -2555,7 +2512,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2639,7 +2595,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/bossac.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/bossac.exe"
@@ -2821,9 +2776,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/bossac.com"
       - "C:/NXP/LinkServer_26.9.130/bossac.exe"
       - "C:/NXP/LinkServer_26.9.130/bossac"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/bossac.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/bossac.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/bossac"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -2831,7 +2783,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu-arc"
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -2884,7 +2835,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2970,7 +2920,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/imgtool.py.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/imgtool.py.exe"
@@ -3050,7 +2999,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -3102,7 +3050,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3186,7 +3133,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/winpty.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/winpty.exe"
@@ -3368,9 +3314,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/winpty.com"
       - "C:/NXP/LinkServer_26.9.130/winpty.exe"
       - "C:/NXP/LinkServer_26.9.130/winpty"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/winpty.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/winpty.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/winpty"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -3378,7 +3321,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu-arc"
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -3431,7 +3373,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3467,7 +3408,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -3519,7 +3459,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3555,7 +3494,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -3607,7 +3545,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3691,7 +3628,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/dtc.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/dtc.exe"
@@ -3867,7 +3803,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -3919,7 +3854,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3955,7 +3889,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -4007,7 +3940,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4043,7 +3975,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -4095,7 +4026,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4131,7 +4061,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -4183,7 +4112,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4219,7 +4147,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -4271,7 +4198,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4307,7 +4233,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -4359,7 +4284,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4395,7 +4319,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -4447,7 +4370,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4483,7 +4405,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -4535,7 +4456,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4571,7 +4491,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -4623,7 +4542,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4659,7 +4577,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -4711,7 +4628,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4747,7 +4663,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -4799,7 +4714,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4835,7 +4749,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -4887,7 +4800,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -4985,7 +4897,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/ninja-build.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/ninja-build.exe"
@@ -5179,7 +5090,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -5231,7 +5141,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -5269,7 +5178,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -5321,7 +5229,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -5425,7 +5332,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-dlltool.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-dlltool.exe"
@@ -5583,9 +5489,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-dlltool.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-dlltool.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-dlltool"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-dlltool.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-dlltool.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-dlltool"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/dlltool.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/dlltool.exe"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/dlltool"
@@ -5733,7 +5636,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -5785,7 +5687,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -5863,7 +5764,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-addr2line.com"
     found: "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-addr2line.exe"
@@ -5873,7 +5773,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu-arc"
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -5926,7 +5825,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -6004,7 +5902,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-tapi.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-tapi.exe"
@@ -6162,9 +6059,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-tapi.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-tapi.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-tapi"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-tapi.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-tapi.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-tapi"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/tapi.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/tapi.exe"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/tapi"
@@ -6321,9 +6215,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/tapi.com"
       - "C:/NXP/LinkServer_26.9.130/tapi.exe"
       - "C:/NXP/LinkServer_26.9.130/tapi"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/tapi.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/tapi.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -6331,7 +6222,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu-arc"
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -6384,7 +6274,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -6464,7 +6353,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-14.3.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-14.3.exe"
@@ -6622,9 +6510,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-14.3.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-14.3.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-14.3"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14.3.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14.3.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14.3"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-14.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-14.exe"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-14"
@@ -6781,9 +6666,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-14.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-14.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-14"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar14.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar14.exe"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar14"
@@ -6940,9 +6822,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar14.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar14.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar14"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar14.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar14.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar14"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar.com"
     found: "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar.exe"
     search_context:
@@ -6951,7 +6830,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu-arc"
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -7004,7 +6882,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -7084,7 +6961,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-14.3.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-14.3.exe"
@@ -7242,9 +7118,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-14.3.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-14.3.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-14.3"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14.3.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14.3.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14.3"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-14.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-14.exe"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-14"
@@ -7401,9 +7274,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-14.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-14.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-14"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib14.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib14.exe"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib14"
@@ -7560,9 +7430,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib14.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib14.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib14"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib14.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib14.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib14"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib.com"
     found: "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib.exe"
     search_context:
@@ -7571,7 +7438,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu-arc"
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -7624,7 +7490,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -7662,7 +7527,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -7714,7 +7578,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -7820,7 +7683,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-14.3.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-14.3.exe"
@@ -7978,9 +7840,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-14.3.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-14.3.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-14.3"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14.3.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14.3.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14.3"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-14.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-14.exe"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-14"
@@ -8137,9 +7996,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-14.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-14.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-14"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-14"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar14.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar14.exe"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar14"
@@ -8296,9 +8152,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar14.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar14.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar14"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar14.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar14.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar14"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar.com"
     found: "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar.exe"
     search_context:
@@ -8307,7 +8160,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu-arc"
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -8360,7 +8212,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -8440,7 +8291,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-14.3.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-14.3.exe"
@@ -8598,9 +8448,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-14.3.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-14.3.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-14.3"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14.3.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14.3.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14.3"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-14.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-14.exe"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-14"
@@ -8757,9 +8604,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-14.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-14.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-14"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-14"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib14.com"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib14.exe"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib14"
@@ -8916,9 +8760,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib14.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib14.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib14"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib14.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib14.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib14"
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib.com"
     found: "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib.exe"
     search_context:
@@ -8927,7 +8768,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu-arc"
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -8980,7 +8820,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -9016,7 +8855,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -9068,7 +8906,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -9168,7 +9005,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ar-.com"
@@ -9327,9 +9163,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-"
       - "/bin/x86_64-zephyr-elf-gcc-ar-.com"
       - "/bin/x86_64-zephyr-elf-gcc-ar-.exe"
       - "/bin/x86_64-zephyr-elf-gcc-ar-"
@@ -9489,9 +9322,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ar-"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ar-"
       - "/bin/x86_64-zephyr-elf-gcc-ar-.com"
       - "/bin/x86_64-zephyr-elf-gcc-ar-.exe"
       - "/bin/x86_64-zephyr-elf-gcc-ar-"
@@ -9503,7 +9333,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu-arc"
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -9556,7 +9385,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -9639,7 +9467,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/gnu/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc-ranlib-.com"
@@ -9798,9 +9625,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-"
       - "/bin/x86_64-zephyr-elf-gcc-ranlib-.com"
       - "/bin/x86_64-zephyr-elf-gcc-ranlib-.exe"
       - "/bin/x86_64-zephyr-elf-gcc-ranlib-"
@@ -9960,9 +9784,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-.com"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-.exe"
       - "C:/NXP/LinkServer_26.9.130/x86_64-zephyr-elf-gcc-ranlib-"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/x86_64-zephyr-elf-gcc-ranlib-"
       - "/bin/x86_64-zephyr-elf-gcc-ranlib-.com"
       - "/bin/x86_64-zephyr-elf-gcc-ranlib-.exe"
       - "/bin/x86_64-zephyr-elf-gcc-ranlib-"
@@ -9974,7 +9795,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu-arc"
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -10027,7 +9847,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -10111,7 +9930,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
       - "C:/IOMICO_Assigments/deps/zephyr/scripts/build/"
     searched_directories:
@@ -10295,9 +10113,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/gen_kobject_list.com"
       - "C:/NXP/LinkServer_26.9.130/gen_kobject_list.exe"
       - "C:/NXP/LinkServer_26.9.130/gen_kobject_list"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list"
       - "/bin/gen_kobject_list.com"
       - "/bin/gen_kobject_list.exe"
       - "/bin/gen_kobject_list"
@@ -10484,9 +10299,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/gen_kobject_list.py.com"
       - "C:/NXP/LinkServer_26.9.130/gen_kobject_list.py.exe"
       - "C:/NXP/LinkServer_26.9.130/gen_kobject_list.py"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.py.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.py.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.py"
       - "/bin/gen_kobject_list.py.com"
       - "/bin/gen_kobject_list.py.exe"
       - "/bin/gen_kobject_list.py"
@@ -10499,7 +10311,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu-arc"
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -10552,7 +10363,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -10586,7 +10396,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -10638,7 +10447,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -10720,7 +10528,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/puncover.com"
@@ -10903,9 +10710,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/puncover.com"
       - "C:/NXP/LinkServer_26.9.130/puncover.exe"
       - "C:/NXP/LinkServer_26.9.130/puncover"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/puncover.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/puncover.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/puncover"
       - "/bin/puncover.com"
       - "/bin/puncover.exe"
       - "/bin/puncover"
@@ -10916,7 +10720,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu-arc"
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -10969,7 +10772,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -11051,7 +10853,6 @@ events:
       - "C:/Users/rrive/AppData/Local/Microsoft/WinGet/Packages/oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe/usr/bin/"
       - "C:/Program Files/7-Zip/"
       - "C:/NXP/LinkServer_26.9.130/"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
       - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu/bin/pahole.com"
@@ -11234,9 +11035,6 @@ events:
       - "C:/NXP/LinkServer_26.9.130/pahole.com"
       - "C:/NXP/LinkServer_26.9.130/pahole.exe"
       - "C:/NXP/LinkServer_26.9.130/pahole"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/pahole.com"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/pahole.exe"
-      - "C:/Users/rrive/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/pahole"
       - "/bin/pahole.com"
       - "/bin/pahole.exe"
       - "/bin/pahole"
@@ -11247,7 +11045,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/qemu-arc"
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
@@ -11300,7 +11097,6 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -11438,7 +11234,6 @@ events:
         - "C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd"
       ENV{PATH}:
         - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
-        - "C:\\Users\\rrive\\zephyr-sdk-1.0.1\\hosttools\\qemu"
         - "C:\\Users\\rrive\\Desktop\\Zephyr_project\\zephyrproject\\.venv\\Scripts"
         - "c:\\Users\\rrive\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.5.0-win32-x64\\resources\\binaries\\win32\\x86_64"
         - "c:/Users/rrive/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-win32-x64/resources/cube-cmake/win32/x86_64"
@@ -11490,6 +11285,5 @@ events:
         - "C:\\Users\\rrive\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
         - "C:\\Program Files\\7-Zip"
         - "C:\\NXP\\LinkServer_26.9.130\\"
-        - "c:\\Users\\rrive\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
 ...

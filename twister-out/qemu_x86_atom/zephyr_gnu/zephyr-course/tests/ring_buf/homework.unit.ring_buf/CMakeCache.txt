@@ -342,6 +342,9 @@ IMGTOOL:FILEPATH=C:/Users/rrive/Desktop/Zephyr_project/zephyrproject/.venv/Scrip
 //Path to a program.
 OPENOCD:FILEPATH=C:/Users/rrive/zephyr-sdk-1.0.1/hosttools/openocd/bin/openocd.exe
 
+//No help, variable specified on the command line.
+OVERLAY_CONFIG:UNINITIALIZED=C:\IOMICO_Assigments\zephyr-course\twister-out\qemu_x86_atom\zephyr_gnu\zephyr-course\tests\ring_buf\homework.unit.ring_buf\twister\testsuite_extra.conf
+
 //Path to a program.
 PAHOLE:FILEPATH=PAHOLE-NOTFOUND
 
@@ -367,7 +370,7 @@ SOC_FULL_DIR:PATH=C:/IOMICO_Assigments/deps/zephyr/soc/intel/atom
 TC_NAME:UNINITIALIZED=homework.unit.ring_buf
 
 //No help, variable specified on the command line.
-TC_RUNID:UNINITIALIZED=39af78c6b63756f0a3fb76d7128ca1d6
+TC_RUNID:UNINITIALIZED=018b245496f768b0d9412d9086429987
 
 //True if toolchain supports libstdc++
 TOOLCHAIN_HAS_GLIBCXX:BOOL=ON
@@ -551,7 +554,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=76
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=77
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

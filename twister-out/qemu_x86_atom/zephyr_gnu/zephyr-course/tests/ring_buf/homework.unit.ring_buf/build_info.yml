@@ -31,9 +31,12 @@ cmake:
      - 'C:/IOMICO_Assigments/deps/zephyr/dts/arc'
      - 'C:/IOMICO_Assigments/deps/zephyr/dts'
   kconfig:
+    extra-user-files:
+     - 'C:/IOMICO_Assigments/zephyr-course/twister-out/qemu_x86_atom/zephyr_gnu/zephyr-course/tests/ring_buf/homework.unit.ring_buf/twister/testsuite_extra.conf'
     files:
      - 'C:/IOMICO_Assigments/deps/zephyr/boards/qemu/x86/qemu_x86_defconfig'
      - 'C:/IOMICO_Assigments/zephyr-course/tests/ring_buf/prj.conf'
+     - 'C:/IOMICO_Assigments/zephyr-course/twister-out/qemu_x86_atom/zephyr_gnu/zephyr-course/tests/ring_buf/homework.unit.ring_buf/twister/testsuite_extra.conf'
      - 'C:/IOMICO_Assigments/zephyr-course/twister-out/qemu_x86_atom/zephyr_gnu/zephyr-course/tests/ring_buf/homework.unit.ring_buf/zephyr/misc/generated/extra_kconfig_options.conf'
     user-files:
      - 'C:/IOMICO_Assigments/zephyr-course/tests/ring_buf/prj.conf'

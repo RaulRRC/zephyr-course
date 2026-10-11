@@ -49,7 +49,7 @@ ZTEST(ring_buf_init, test_reinit_clears_state)
 	 */
 	zassert_ok(rb_push(1)); // Insert value
 	zassert_ok(rb_init(4)); // Restart Ring buffer
-	zassert_equal(rb_is_empty(), true); // Verify its empty
+	zassert_true(rb_is_empty()); // Verify its empty
 	zassert_equal(rb_count(), 0 ); // Double check its contents
 
 }
@@ -73,7 +73,7 @@ ZTEST(ring_buf_push_pop, test_single_push_pop)
 	zassert_ok(rb_push(42)); // push value 42
 	zassert_ok(rb_pop(&value)); // pop value 42
 	zassert_equal(value, 42); // Verify valuep popped its 42
-	zassert_equal(rb_is_empty(), true); // Verify its empty
+	zassert_true(rb_is_empty()); // Verify its empty
 
 }
 
@@ -93,7 +93,7 @@ ZTEST(ring_buf_push_pop, test_fifo_order)
 	zassert_equal(value, i); 
 	}
 
-	zassert_equal(rb_is_empty(), true); // Verify its empty
+	zassert_true(rb_is_empty()); // Verify its empty
 
 
 }
@@ -109,7 +109,7 @@ ZTEST(ring_buf_push_pop, test_push_full_returns_enospc)
 	zassert_ok(rb_push(i)); 
 	}
 
-	zassert_equal(rb_is_full(), true);
+	zassert_true(rb_is_full());
 	zassert_equal(rb_push(99), -ENOSPC);
 	zassert_equal(rb_count(), 4);
 
@@ -158,7 +158,7 @@ ZTEST(ring_buf_boundaries, test_is_full_after_fill)
 	zassert_ok(rb_push(i)); 
 	}
 
-	zassert_equal(rb_is_full(), true); 
+	zassert_true(rb_is_full()); 
 	zassert_equal(rb_count(), 4); 
 
 }

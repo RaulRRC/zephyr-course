@@ -155,6 +155,8 @@ C:/IOMICO_Assigments/zephyr-course/twister-out/qemu_x86_atom/zephyr_gnu/zephyr-c
 C:/IOMICO_Assigments/zephyr-course/twister-out/qemu_x86_atom/zephyr_gnu/zephyr-course/tests/ring_buf/homework.unit.ring_buf/zephyr/subsys/testsuite/ztest/CMakeFiles/subsys__testsuite__ztest.dir
 C:/IOMICO_Assigments/zephyr-course/twister-out/qemu_x86_atom/zephyr_gnu/zephyr-course/tests/ring_buf/homework.unit.ring_buf/zephyr/subsys/testsuite/ztest/CMakeFiles/edit_cache.dir
 C:/IOMICO_Assigments/zephyr-course/twister-out/qemu_x86_atom/zephyr_gnu/zephyr-course/tests/ring_buf/homework.unit.ring_buf/zephyr/subsys/testsuite/ztest/CMakeFiles/rebuild_cache.dir
+C:/IOMICO_Assigments/zephyr-course/twister-out/qemu_x86_atom/zephyr_gnu/zephyr-course/tests/ring_buf/homework.unit.ring_buf/zephyr/subsys/testsuite/coverage/CMakeFiles/edit_cache.dir
+C:/IOMICO_Assigments/zephyr-course/twister-out/qemu_x86_atom/zephyr_gnu/zephyr-course/tests/ring_buf/homework.unit.ring_buf/zephyr/subsys/testsuite/coverage/CMakeFiles/rebuild_cache.dir
 C:/IOMICO_Assigments/zephyr-course/twister-out/qemu_x86_atom/zephyr_gnu/zephyr-course/tests/ring_buf/homework.unit.ring_buf/zephyr/subsys/tracing/CMakeFiles/edit_cache.dir
 C:/IOMICO_Assigments/zephyr-course/twister-out/qemu_x86_atom/zephyr_gnu/zephyr-course/tests/ring_buf/homework.unit.ring_buf/zephyr/subsys/tracing/CMakeFiles/rebuild_cache.dir
 C:/IOMICO_Assigments/zephyr-course/twister-out/qemu_x86_atom/zephyr_gnu/zephyr-course/tests/ring_buf/homework.unit.ring_buf/zephyr/subsys/usb/CMakeFiles/edit_cache.dir
