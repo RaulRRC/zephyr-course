@@ -1,0 +1,338 @@
+2026-10-11 17:15:16,120 - twister - INFO - Using Ninja..
+2026-10-11 17:15:16,229 - twister - INFO - Zephyr version: v4.4.0
+2026-10-11 17:15:16,252 - twister - DEBUG - Running cmake script C:\IOMICO_Assigments\deps\zephyr\cmake\verify-toolchain.cmake
+2026-10-11 17:15:16,254 - twister - DEBUG - Calling cmake: ['C:\\ST\\STM32CubeCLT_1.22.0\\CMake\\bin\\cmake.EXE', '-DFORMAT=json', '-P', 'C:\\IOMICO_Assigments\\deps\\zephyr\\cmake\\verify-toolchain.cmake']
+2026-10-11 17:15:16,702 - twister - DEBUG - Finished running C:\IOMICO_Assigments\deps\zephyr\cmake\verify-toolchain.cmake
+2026-10-11 17:15:16,702 - twister - INFO - Using 'zephyr/gnu' toolchain variant.
+2026-10-11 17:15:17,712 - twister - DEBUG - Reading testsuite configuration files under C:\IOMICO_Assigments\zephyr-course\tests\ring_buf...
+2026-10-11 17:15:17,714 - twister - DEBUG - Found possible testsuite in C:\IOMICO_Assigments\zephyr-course\tests\ring_buf
+2026-10-11 17:15:17,716 - twister - DEBUG - No duplicates found.
+2026-10-11 17:15:17,717 - twister - DEBUG -  platform filter: ['qemu_x86']
+2026-10-11 17:15:17,717 - twister - DEBUG - platform_pattern: []
+2026-10-11 17:15:17,717 - twister - DEBUG -    vendor filter: []
+2026-10-11 17:15:17,717 - twister - DEBUG -      arch_filter: None
+2026-10-11 17:15:17,717 - twister - DEBUG -       tag_filter: None
+2026-10-11 17:15:17,717 - twister - DEBUG -      exclude_tag: None
+2026-10-11 17:15:17,717 - twister - DEBUG - Checking platform filter: ['qemu_x86']
+2026-10-11 17:15:17,717 - twister - INFO - Building initial testsuite list...
+2026-10-11 17:15:17,718 - twister - INFO - Built testsuite list in 0.00 seconds
+2026-10-11 17:15:17,718 - twister - INFO - Writing JSON report C:\IOMICO_Assigments\zephyr-course\twister-out\testplan.json
+2026-10-11 17:15:17,784 - twister - INFO - Adding tasks to the queue...
+2026-10-11 17:15:17,784 - twister - DEBUG - adding qemu_x86/atom\zephyr/gnu\homework.unit.ring_buf
+2026-10-11 17:15:18,068 - twister - INFO - Added initial list of jobs to queue
+2026-10-11 17:15:18,653 - twister - DEBUG - Running cmake on C:\IOMICO_Assigments\zephyr-course\tests\ring_buf for qemu_x86/atom
+2026-10-11 17:15:18,656 - twister - DEBUG - Calling cmake: ['C:\\ST\\STM32CubeCLT_1.22.0\\CMake\\bin\\cmake.EXE', '-BC:\\IOMICO_Assigments\\zephyr-course\\twister-out\\qemu_x86_atom\\zephyr_gnu\\zephyr-course\\tests\\ring_buf\\homework.unit.ring_buf', '-DTC_RUNID=39af78c6b63756f0a3fb76d7128ca1d6', '-DTC_NAME=homework.unit.ring_buf', '-DCONFIG_COMPILER_WARNINGS_AS_ERRORS=y', '-DEXTRA_GEN_EDT_ARGS=--edtlib-Werror', '-GNinja', '-DPython3_EXECUTABLE=C:/Users/rrive/Desktop/Zephyr_project/zephyrproject/.venv/Scripts/python.exe', '-DZEPHYR_TOOLCHAIN_VARIANT=zephyr/gnu', '-SC:\\IOMICO_Assigments\\zephyr-course\\tests\\ring_buf', '-DQEMU_PIPE=C:\\IOMICO_Assigments\\zephyr-course\\twister-out\\qemu_x86_atom\\zephyr_gnu\\zephyr-course\\tests\\ring_buf\\homework.unit.ring_buf\\qemu-fifo', '-DBOARD=qemu_x86/atom']
+2026-10-11 17:15:18,828 - twister - DEBUG - Launched 16 jobs
+2026-10-11 17:15:25,689 - twister - DEBUG - Finished running cmake C:\IOMICO_Assigments\zephyr-course\tests\ring_buf for qemu_x86/atom in 7.03 seconds
+2026-10-11 17:15:25,692 - twister - DEBUG - build test: qemu_x86/atom\zephyr/gnu\homework.unit.ring_buf
+2026-10-11 17:15:25,692 - twister - DEBUG - Building C:\IOMICO_Assigments\zephyr-course\tests\ring_buf for qemu_x86/atom
+2026-10-11 17:15:25,695 - twister - DEBUG - Running C:\ST\STM32CubeCLT_1.22.0\CMake\bin\cmake.EXE --build C:\IOMICO_Assigments\zephyr-course\twister-out\qemu_x86_atom\zephyr_gnu\zephyr-course\tests\ring_buf\homework.unit.ring_buf
+2026-10-11 17:15:29,925 - twister - DEBUG - Finished building C:\IOMICO_Assigments\zephyr-course\tests\ring_buf for qemu_x86/atom in 4.23 seconds
+2026-10-11 17:15:29,925 - twister - DEBUG - Determine test cases for test instance: qemu_x86/atom\zephyr/gnu\homework.unit.ring_buf
+2026-10-11 17:15:29,925 - twister - DEBUG - Determine test cases for test suite: homework.unit.ring_buf
+2026-10-11 17:15:29,943 - twister - DEBUG - Test instance qemu_x86/atom\zephyr/gnu\homework.unit.ring_buf already has 8 testcase(s) known: [<TestCase homework.unit.ring_buf.ring_buf_push_pop.single_push_pop with None>, <TestCase homework.unit.ring_buf.ring_buf_push_pop.push_full_returns_enospc with None>, <TestCase homework.unit.ring_buf.ring_buf_boundaries.peek_does_not_consume with None>, <TestCase homework.unit.ring_buf.ring_buf_push_pop.fifo_order with None>, <TestCase homework.unit.ring_buf.ring_buf_boundaries.pop_null_returns_einval with None>, <TestCase homework.unit.ring_buf.ring_buf_boundaries.is_full_after_fill with None>, <TestCase homework.unit.ring_buf.ring_buf_init.fresh_state with None>, <TestCase homework.unit.ring_buf.ring_buf_init.reinit_clears_state with None>]
+2026-10-11 17:15:29,943 - twister - DEBUG - Detected 8 Ztest case(s): [homework.unit.ring_buf.ring_buf_boundaries.is_full_after_fill, homework.unit.ring_buf.ring_buf_boundaries.pop_null_returns_einval, homework.unit.ring_buf.ring_buf_boundaries.peek_does_not_consume, homework.unit.ring_buf.ring_buf_push_pop.push_full_returns_enospc, homework.unit.ring_buf.ring_buf_push_pop.fifo_order, homework.unit.ring_buf.ring_buf_push_pop.single_push_pop, homework.unit.ring_buf.ring_buf_init.reinit_clears_state, homework.unit.ring_buf.ring_buf_init.fresh_state] in C:\IOMICO_Assigments\zephyr-course\twister-out\qemu_x86_atom\zephyr_gnu\zephyr-course\tests\ring_buf\homework.unit.ring_buf\zephyr\zephyr.elf
+2026-10-11 17:15:29,944 - twister - DEBUG - run test: qemu_x86/atom\zephyr/gnu\homework.unit.ring_buf
+2026-10-11 17:15:29,944 - twister - DEBUG - Reset instance status from 'passed' to None before run.
+2026-10-11 17:15:29,944 - twister - DEBUG - Running qemu_x86/atom\zephyr/gnu\homework.unit.ring_buf (qemu)
+2026-10-11 17:15:29,949 - twister - DEBUG - Spawning QEMUHandler Thread for qemu_x86/atom\zephyr/gnu\homework.unit.ring_buf
+2026-10-11 17:15:31,374 - twister - DEBUG - QEMU (28676): c[?7l[2J[0mSeaBIOS (version rel-1.16.3-0-ga6ed6b701f0a-prebuilt.qemu.org)
+2026-10-11 17:15:31,425 - twister - DEBUG - QEMU (28676): Booting from ROM..
+2026-10-11 17:15:31,616 - twister - DEBUG - QEMU (28676): *** Booting Zephyr OS build v4.4.0 ***
+2026-10-11 17:15:31,760 - twister - DEBUG - QEMU (28676): Running TESTSUITE ring_buf_push_pop
+2026-10-11 17:15:32,101 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:32,229 - twister - DEBUG - QEMU (28676): START - test_single_push_pop
+2026-10-11 17:15:32,474 - twister - DEBUG - QEMU (28676):  PASS - test_single_push_pop in 0.001 seconds
+2026-10-11 17:15:32,824 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:33,002 - twister - DEBUG - QEMU (28676): START - test_push_full_returns_enospc
+2026-10-11 17:15:33,131 - twister - DEBUG - QEMU (28676): W: buffer full (capacity=4)
+2026-10-11 17:15:33,416 - twister - DEBUG - QEMU (28676):  PASS - test_push_full_returns_enospc in 0.001 seconds
+2026-10-11 17:15:33,767 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:33,864 - twister - DEBUG - QEMU (28676): START - test_fifo_order
+2026-10-11 17:15:34,072 - twister - DEBUG - QEMU (28676):  PASS - test_fifo_order in 0.001 seconds
+2026-10-11 17:15:34,426 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:34,621 - twister - DEBUG - QEMU (28676): START - test_push_full_returns_enospc
+2026-10-11 17:15:34,708 - twister - DEBUG - QEMU (28676): W: buffer full (capacity=4)
+2026-10-11 17:15:35,004 - twister - DEBUG - QEMU (28676):  PASS - test_push_full_returns_enospc in 0.001 seconds
+2026-10-11 17:15:35,372 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:35,519 - twister - DEBUG - QEMU (28676): START - test_single_push_pop
+2026-10-11 17:15:35,774 - twister - DEBUG - QEMU (28676):  PASS - test_single_push_pop in 0.001 seconds
+2026-10-11 17:15:36,144 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:36,261 - twister - DEBUG - QEMU (28676): START - test_fifo_order
+2026-10-11 17:15:36,482 - twister - DEBUG - QEMU (28676):  PASS - test_fifo_order in 0.001 seconds
+2026-10-11 17:15:36,850 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:37,059 - twister - DEBUG - QEMU (28676): START - test_push_full_returns_enospc
+2026-10-11 17:15:37,209 - twister - DEBUG - QEMU (28676): W: buffer full (capacity=4)
+2026-10-11 17:15:37,507 - twister - DEBUG - QEMU (28676):  PASS - test_push_full_returns_enospc in 0.001 seconds
+2026-10-11 17:15:37,877 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:38,032 - twister - DEBUG - QEMU (28676): START - test_single_push_pop
+2026-10-11 17:15:38,284 - twister - DEBUG - QEMU (28676):  PASS - test_single_push_pop in 0.001 seconds
+2026-10-11 17:15:38,651 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:38,766 - twister - DEBUG - QEMU (28676): START - test_fifo_order
+2026-10-11 17:15:38,982 - twister - DEBUG - QEMU (28676):  PASS - test_fifo_order in 0.001 seconds
+2026-10-11 17:15:39,364 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:39,566 - twister - DEBUG - QEMU (28676): TESTSUITE ring_buf_push_pop succeeded
+2026-10-11 17:15:39,761 - twister - DEBUG - QEMU (28676): Running TESTSUITE ring_buf_push_pop
+2026-10-11 17:15:40,119 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:40,247 - twister - DEBUG - QEMU (28676): START - test_fifo_order
+2026-10-11 17:15:40,464 - twister - DEBUG - QEMU (28676):  PASS - test_fifo_order in 0.001 seconds
+2026-10-11 17:15:40,836 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:40,990 - twister - DEBUG - QEMU (28676): START - test_single_push_pop
+2026-10-11 17:15:41,224 - twister - DEBUG - QEMU (28676):  PASS - test_single_push_pop in 0.001 seconds
+2026-10-11 17:15:41,602 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:41,808 - twister - DEBUG - QEMU (28676): START - test_push_full_returns_enospc
+2026-10-11 17:15:41,955 - twister - DEBUG - QEMU (28676): W: buffer full (capacity=4)
+2026-10-11 17:15:42,260 - twister - DEBUG - QEMU (28676):  PASS - test_push_full_returns_enospc in 0.001 seconds
+2026-10-11 17:15:42,624 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:42,773 - twister - DEBUG - QEMU (28676): START - test_single_push_pop
+2026-10-11 17:15:43,010 - twister - DEBUG - QEMU (28676):  PASS - test_single_push_pop in 0.001 seconds
+2026-10-11 17:15:43,370 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:43,494 - twister - DEBUG - QEMU (28676): START - test_fifo_order
+2026-10-11 17:15:43,712 - twister - DEBUG - QEMU (28676):  PASS - test_fifo_order in 0.001 seconds
+2026-10-11 17:15:44,087 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:44,278 - twister - DEBUG - QEMU (28676): START - test_push_full_returns_enospc
+2026-10-11 17:15:44,428 - twister - DEBUG - QEMU (28676): W: buffer full (capacity=4)
+2026-10-11 17:15:44,730 - twister - DEBUG - QEMU (28676):  PASS - test_push_full_returns_enospc in 0.001 seconds
+2026-10-11 17:15:45,101 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,236 - twister - DEBUG - QEMU (28676): START - test_fifo_order
+2026-10-11 17:15:45,456 - twister - DEBUG - QEMU (28676):  PASS - test_fifo_order in 0.001 seconds
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): START - test_push_full_returns_enospc
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): W: buffer full (capacity=4)
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676):  PASS - test_push_full_returns_enospc in 0.001 seconds
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): START - test_single_push_pop
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676):  PASS - test_single_push_pop in 0.001 seconds
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): TESTSUITE ring_buf_push_pop succeeded
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): Running TESTSUITE ring_buf_push_pop
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): START - test_fifo_order
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676):  PASS - test_fifo_order in 0.001 seconds
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): START - test_push_full_returns_enospc
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): W: buffer full (capacity=4)
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676):  PASS - test_push_full_returns_enospc in 0.001 seconds
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): START - test_single_push_pop
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676):  PASS - test_single_push_pop in 0.001 seconds
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): START - test_fifo_order
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676):  PASS - test_fifo_order in 0.001 seconds
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): START - test_single_push_pop
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676):  PASS - test_single_push_pop in 0.001 seconds
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): START - test_push_full_returns_enospc
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): W: buffer full (capacity=4)
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676):  PASS - test_push_full_returns_enospc in 0.001 seconds
+2026-10-11 17:15:45,839 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): START - test_fifo_order
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676):  PASS - test_fifo_order in 0.001 seconds
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): START - test_push_full_returns_enospc
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): W: buffer full (capacity=4)
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676):  PASS - test_push_full_returns_enospc in 0.001 seconds
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): START - test_single_push_pop
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676):  PASS - test_single_push_pop in 0.001 seconds
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): TESTSUITE ring_buf_push_pop succeeded
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): Running TESTSUITE ring_buf_boundaries
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): START - test_peek_does_not_consume
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676):  PASS - test_peek_does_not_consume in 0.001 seconds
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): START - test_is_full_after_fill
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676):  PASS - test_is_full_after_fill in 0.001 seconds
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): START - test_pop_null_returns_einval
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): E: value pointer is NULL
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676):  PASS - test_pop_null_returns_einval in 0.001 seconds
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): START - test_is_full_after_fill
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676):  PASS - test_is_full_after_fill in 0.001 seconds
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): START - test_peek_does_not_consume
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676):  PASS - test_peek_does_not_consume in 0.001 seconds
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): START - test_pop_null_returns_einval
+2026-10-11 17:15:45,841 - twister - DEBUG - QEMU (28676): E: value pointer is NULL
+2026-10-11 17:15:45,842 - twister - DEBUG - QEMU (28676):  PASS - test_pop_null_returns_einval in 0.001 seconds
+2026-10-11 17:15:45,842 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,842 - twister - DEBUG - QEMU (28676): START - test_peek_does_not_consume
+2026-10-11 17:15:45,842 - twister - DEBUG - QEMU (28676):  PASS - test_peek_does_not_consume in 0.001 seconds
+2026-10-11 17:15:45,842 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,842 - twister - DEBUG - QEMU (28676): START - test_is_full_after_fill
+2026-10-11 17:15:45,842 - twister - DEBUG - QEMU (28676):  PASS - test_is_full_after_fill in 0.001 seconds
+2026-10-11 17:15:45,842 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:45,842 - twister - DEBUG - QEMU (28676): START - test_pop_null_returns_einval
+2026-10-11 17:15:45,848 - twister - DEBUG - QEMU (28676): E: value pointer is NULL
+2026-10-11 17:15:46,143 - twister - DEBUG - QEMU (28676):  PASS - test_pop_null_returns_einval in 0.001 seconds
+2026-10-11 17:15:46,504 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:46,712 - twister - DEBUG - QEMU (28676): TESTSUITE ring_buf_boundaries succeeded
+2026-10-11 17:15:46,917 - twister - DEBUG - QEMU (28676): Running TESTSUITE ring_buf_boundaries
+2026-10-11 17:15:47,291 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:47,485 - twister - DEBUG - QEMU (28676): START - test_pop_null_returns_einval
+2026-10-11 17:15:47,604 - twister - DEBUG - QEMU (28676): E: value pointer is NULL
+2026-10-11 17:15:47,896 - twister - DEBUG - QEMU (28676):  PASS - test_pop_null_returns_einval in 0.001 seconds
+2026-10-11 17:15:48,254 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:48,423 - twister - DEBUG - QEMU (28676): START - test_is_full_after_fill
+2026-10-11 17:15:48,683 - twister - DEBUG - QEMU (28676):  PASS - test_is_full_after_fill in 0.001 seconds
+2026-10-11 17:15:49,057 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:49,234 - twister - DEBUG - QEMU (28676): START - test_peek_does_not_consume
+2026-10-11 17:15:49,506 - twister - DEBUG - QEMU (28676):  PASS - test_peek_does_not_consume in 0.001 seconds
+2026-10-11 17:15:49,877 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:50,042 - twister - DEBUG - QEMU (28676): START - test_is_full_after_fill
+2026-10-11 17:15:50,317 - twister - DEBUG - QEMU (28676):  PASS - test_is_full_after_fill in 0.001 seconds
+2026-10-11 17:15:50,684 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:50,882 - twister - DEBUG - QEMU (28676): START - test_pop_null_returns_einval
+2026-10-11 17:15:51,016 - twister - DEBUG - QEMU (28676): E: value pointer is NULL
+2026-10-11 17:15:51,297 - twister - DEBUG - QEMU (28676):  PASS - test_pop_null_returns_einval in 0.001 seconds
+2026-10-11 17:15:51,673 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:51,862 - twister - DEBUG - QEMU (28676): START - test_peek_does_not_consume
+2026-10-11 17:15:52,142 - twister - DEBUG - QEMU (28676):  PASS - test_peek_does_not_consume in 0.001 seconds
+2026-10-11 17:15:52,509 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:52,689 - twister - DEBUG - QEMU (28676): START - test_peek_does_not_consume
+2026-10-11 17:15:52,977 - twister - DEBUG - QEMU (28676):  PASS - test_peek_does_not_consume in 0.001 seconds
+2026-10-11 17:15:53,338 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:53,535 - twister - DEBUG - QEMU (28676): START - test_pop_null_returns_einval
+2026-10-11 17:15:53,662 - twister - DEBUG - QEMU (28676): E: value pointer is NULL
+2026-10-11 17:15:53,955 - twister - DEBUG - QEMU (28676):  PASS - test_pop_null_returns_einval in 0.001 seconds
+2026-10-11 17:15:54,327 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:54,497 - twister - DEBUG - QEMU (28676): START - test_is_full_after_fill
+2026-10-11 17:15:54,765 - twister - DEBUG - QEMU (28676):  PASS - test_is_full_after_fill in 0.001 seconds
+2026-10-11 17:15:55,143 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:55,358 - twister - DEBUG - QEMU (28676): TESTSUITE ring_buf_boundaries succeeded
+2026-10-11 17:15:55,555 - twister - DEBUG - QEMU (28676): Running TESTSUITE ring_buf_boundaries
+2026-10-11 17:15:55,928 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:56,037 - twister - DEBUG - QEMU (28676): START - test_is_full_after_fill
+2026-10-11 17:15:56,287 - twister - DEBUG - QEMU (28676):  PASS - test_is_full_after_fill in 0.001 seconds
+2026-10-11 17:15:56,666 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:56,869 - twister - DEBUG - QEMU (28676): START - test_pop_null_returns_einval
+2026-10-11 17:15:57,001 - twister - DEBUG - QEMU (28676): E: value pointer is NULL
+2026-10-11 17:15:57,295 - twister - DEBUG - QEMU (28676):  PASS - test_pop_null_returns_einval in 0.001 seconds
+2026-10-11 17:15:57,661 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:57,842 - twister - DEBUG - QEMU (28676): START - test_peek_does_not_consume
+2026-10-11 17:15:58,130 - twister - DEBUG - QEMU (28676):  PASS - test_peek_does_not_consume in 0.001 seconds
+2026-10-11 17:15:58,496 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:58,662 - twister - DEBUG - QEMU (28676): START - test_is_full_after_fill
+2026-10-11 17:15:58,933 - twister - DEBUG - QEMU (28676):  PASS - test_is_full_after_fill in 0.001 seconds
+2026-10-11 17:15:59,305 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:15:59,495 - twister - DEBUG - QEMU (28676): START - test_pop_null_returns_einval
+2026-10-11 17:15:59,628 - twister - DEBUG - QEMU (28676): E: value pointer is NULL
+2026-10-11 17:15:59,920 - twister - DEBUG - QEMU (28676):  PASS - test_pop_null_returns_einval in 0.001 seconds
+2026-10-11 17:16:00,291 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:00,482 - twister - DEBUG - QEMU (28676): START - test_peek_does_not_consume
+2026-10-11 17:16:00,763 - twister - DEBUG - QEMU (28676):  PASS - test_peek_does_not_consume in 0.001 seconds
+2026-10-11 17:16:01,135 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:01,309 - twister - DEBUG - QEMU (28676): START - test_is_full_after_fill
+2026-10-11 17:16:01,569 - twister - DEBUG - QEMU (28676):  PASS - test_is_full_after_fill in 0.001 seconds
+2026-10-11 17:16:01,948 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:02,121 - twister - DEBUG - QEMU (28676): START - test_peek_does_not_consume
+2026-10-11 17:16:02,407 - twister - DEBUG - QEMU (28676):  PASS - test_peek_does_not_consume in 0.001 seconds
+2026-10-11 17:16:02,784 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:02,976 - twister - DEBUG - QEMU (28676): START - test_pop_null_returns_einval
+2026-10-11 17:16:03,099 - twister - DEBUG - QEMU (28676): E: value pointer is NULL
+2026-10-11 17:16:03,395 - twister - DEBUG - QEMU (28676):  PASS - test_pop_null_returns_einval in 0.001 seconds
+2026-10-11 17:16:03,767 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:03,983 - twister - DEBUG - QEMU (28676): TESTSUITE ring_buf_boundaries succeeded
+2026-10-11 17:16:04,151 - twister - DEBUG - QEMU (28676): Running TESTSUITE ring_buf_init
+2026-10-11 17:16:04,517 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:04,675 - twister - DEBUG - QEMU (28676): START - test_reinit_clears_state
+2026-10-11 17:16:04,948 - twister - DEBUG - QEMU (28676):  PASS - test_reinit_clears_state in 0.001 seconds
+2026-10-11 17:16:05,329 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:05,459 - twister - DEBUG - QEMU (28676): START - test_fresh_state
+2026-10-11 17:16:05,685 - twister - DEBUG - QEMU (28676):  PASS - test_fresh_state in 0.001 seconds
+2026-10-11 17:16:06,065 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:06,245 - twister - DEBUG - QEMU (28676): START - test_reinit_clears_state
+2026-10-11 17:16:06,514 - twister - DEBUG - QEMU (28676):  PASS - test_reinit_clears_state in 0.001 seconds
+2026-10-11 17:16:06,877 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:07,006 - twister - DEBUG - QEMU (28676): START - test_fresh_state
+2026-10-11 17:16:07,239 - twister - DEBUG - QEMU (28676):  PASS - test_fresh_state in 0.001 seconds
+2026-10-11 17:16:07,604 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:07,784 - twister - DEBUG - QEMU (28676): START - test_reinit_clears_state
+2026-10-11 17:16:08,046 - twister - DEBUG - QEMU (28676):  PASS - test_reinit_clears_state in 0.001 seconds
+2026-10-11 17:16:08,429 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:08,561 - twister - DEBUG - QEMU (28676): START - test_fresh_state
+2026-10-11 17:16:08,778 - twister - DEBUG - QEMU (28676):  PASS - test_fresh_state in 0.001 seconds
+2026-10-11 17:16:09,133 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:09,299 - twister - DEBUG - QEMU (28676): TESTSUITE ring_buf_init succeeded
+2026-10-11 17:16:09,467 - twister - DEBUG - QEMU (28676): Running TESTSUITE ring_buf_init
+2026-10-11 17:16:09,849 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:10,025 - twister - DEBUG - QEMU (28676): START - test_reinit_clears_state
+2026-10-11 17:16:10,281 - twister - DEBUG - QEMU (28676):  PASS - test_reinit_clears_state in 0.001 seconds
+2026-10-11 17:16:10,659 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:10,792 - twister - DEBUG - QEMU (28676): START - test_fresh_state
+2026-10-11 17:16:11,017 - twister - DEBUG - QEMU (28676):  PASS - test_fresh_state in 0.001 seconds
+2026-10-11 17:16:11,389 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:11,565 - twister - DEBUG - QEMU (28676): START - test_reinit_clears_state
+2026-10-11 17:16:11,832 - twister - DEBUG - QEMU (28676):  PASS - test_reinit_clears_state in 0.001 seconds
+2026-10-11 17:16:12,199 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:12,333 - twister - DEBUG - QEMU (28676): START - test_fresh_state
+2026-10-11 17:16:12,565 - twister - DEBUG - QEMU (28676):  PASS - test_fresh_state in 0.001 seconds
+2026-10-11 17:16:12,944 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:13,106 - twister - DEBUG - QEMU (28676): START - test_reinit_clears_state
+2026-10-11 17:16:13,372 - twister - DEBUG - QEMU (28676):  PASS - test_reinit_clears_state in 0.001 seconds
+2026-10-11 17:16:13,737 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:13,864 - twister - DEBUG - QEMU (28676): START - test_fresh_state
+2026-10-11 17:16:14,099 - twister - DEBUG - QEMU (28676):  PASS - test_fresh_state in 0.001 seconds
+2026-10-11 17:16:14,474 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:14,654 - twister - DEBUG - QEMU (28676): TESTSUITE ring_buf_init succeeded
+2026-10-11 17:16:14,825 - twister - DEBUG - QEMU (28676): Running TESTSUITE ring_buf_init
+2026-10-11 17:16:15,194 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:15,317 - twister - DEBUG - QEMU (28676): START - test_fresh_state
+2026-10-11 17:16:15,539 - twister - DEBUG - QEMU (28676):  PASS - test_fresh_state in 0.001 seconds
+2026-10-11 17:16:15,908 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:16,091 - twister - DEBUG - QEMU (28676): START - test_reinit_clears_state
+2026-10-11 17:16:16,367 - twister - DEBUG - QEMU (28676):  PASS - test_reinit_clears_state in 0.001 seconds
+2026-10-11 17:16:16,738 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:16,912 - twister - DEBUG - QEMU (28676): START - test_reinit_clears_state
+2026-10-11 17:16:17,162 - twister - DEBUG - QEMU (28676):  PASS - test_reinit_clears_state in 0.001 seconds
+2026-10-11 17:16:17,537 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:17,665 - twister - DEBUG - QEMU (28676): START - test_fresh_state
+2026-10-11 17:16:17,889 - twister - DEBUG - QEMU (28676):  PASS - test_fresh_state in 0.001 seconds
+2026-10-11 17:16:18,269 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:18,396 - twister - DEBUG - QEMU (28676): START - test_fresh_state
+2026-10-11 17:16:18,629 - twister - DEBUG - QEMU (28676):  PASS - test_fresh_state in 0.001 seconds
+2026-10-11 17:16:19,003 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:19,162 - twister - DEBUG - QEMU (28676): START - test_reinit_clears_state
+2026-10-11 17:16:19,424 - twister - DEBUG - QEMU (28676):  PASS - test_reinit_clears_state in 0.001 seconds
+2026-10-11 17:16:19,799 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:19,982 - twister - DEBUG - QEMU (28676): TESTSUITE ring_buf_init succeeded
+2026-10-11 17:16:19,982 - twister - DEBUG - QEMU (28676): 
+2026-10-11 17:16:20,183 - twister - DEBUG - QEMU (28676): ------ TESTSUITE SUMMARY START ------
+2026-10-11 17:16:20,183 - twister - DEBUG - QEMU (28676): 
+2026-10-11 17:16:20,756 - twister - DEBUG - QEMU (28676): SUITE PASS - 100.00% [ring_buf_boundaries]: pass = 3, fail = 0, skip = 0, total = 3 duration = 0.003 seconds
+2026-10-11 17:16:21,172 - twister - DEBUG - QEMU (28676):  - PASS - [ring_buf_boundaries.test_is_full_after_fill] duration = 0.001 seconds
+2026-10-11 17:16:21,617 - twister - DEBUG - QEMU (28676):  - PASS - [ring_buf_boundaries.test_peek_does_not_consume] duration = 0.001 seconds
+2026-10-11 17:16:22,072 - twister - DEBUG - QEMU (28676):  - PASS - [ring_buf_boundaries.test_pop_null_returns_einval] duration = 0.001 seconds
+2026-10-11 17:16:22,072 - twister - DEBUG - QEMU (28676): 
+2026-10-11 17:16:22,579 - twister - DEBUG - QEMU (28676): SUITE PASS - 100.00% [ring_buf_init]: pass = 2, fail = 0, skip = 0, total = 2 duration = 0.002 seconds
+2026-10-11 17:16:22,899 - twister - DEBUG - QEMU (28676):  - PASS - [ring_buf_init.test_fresh_state] duration = 0.001 seconds
+2026-10-11 17:16:23,260 - twister - DEBUG - QEMU (28676):  - PASS - [ring_buf_init.test_reinit_clears_state] duration = 0.001 seconds
+2026-10-11 17:16:23,260 - twister - DEBUG - QEMU (28676): 
+2026-10-11 17:16:23,774 - twister - DEBUG - QEMU (28676): SUITE PASS - 100.00% [ring_buf_push_pop]: pass = 3, fail = 0, skip = 0, total = 3 duration = 0.003 seconds
+2026-10-11 17:16:24,084 - twister - DEBUG - QEMU (28676):  - PASS - [ring_buf_push_pop.test_fifo_order] duration = 0.001 seconds
+2026-10-11 17:16:24,443 - twister - DEBUG - QEMU (28676):  - PASS - [ring_buf_push_pop.test_push_full_returns_enospc] duration = 0.001 seconds
+2026-10-11 17:16:24,667 - twister - DEBUG - QEMU (28676):  - PASS - [ring_buf_push_pop.test_single_push_pop] duration = 0.001 seconds
+2026-10-11 17:16:24,667 - twister - DEBUG - QEMU (28676): 
+2026-10-11 17:16:24,689 - twister - DEBUG - QEMU (28676): ------ TESTSUITE SUMMARY END ------
+2026-10-11 17:16:24,689 - twister - DEBUG - QEMU (28676): 
+2026-10-11 17:16:24,763 - twister - DEBUG - QEMU (28676): ===================================================================
+2026-10-11 17:16:24,791 - twister - DEBUG - QEMU (28676): RunID: 39af78c6b63756f0a3fb76d7128ca1d6
+2026-10-11 17:16:24,812 - twister - DEBUG - QEMU (28676): PROJECT EXECUTION SUCCESSFUL
+2026-10-11 17:16:26,814 - twister - DEBUG - QEMU (28676) complete with passed (None) after 56.86551594734192 seconds
+2026-10-11 17:16:26,824 - twister - DEBUG - return code from QEMU (28676): 0
+2026-10-11 17:16:26,824 - twister - DEBUG - Expected suite names:['ring_buf_init', 'ring_buf_push_pop', 'ring_buf_boundaries']
+2026-10-11 17:16:26,824 - twister - DEBUG - Detected suite names:['ring_buf_push_pop', 'ring_buf_boundaries', 'ring_buf_init']
+2026-10-11 17:16:26,824 - twister - DEBUG - run status: qemu_x86/atom\zephyr/gnu\homework.unit.ring_buf passed
+2026-10-11 17:16:26,858 - twister - INFO - 1 test scenarios (1 configurations) selected, 0 configurations filtered (0 by static filter, 0 at runtime).
+2026-10-11 17:16:26,882 - twister - INFO - [32m1 of 1[39m executed test configurations passed (100.00%), 0 built (not run), 0 failed, 0 errored, with no warnings in 70.76 seconds.
+2026-10-11 17:16:26,882 - twister - INFO - 8 of 8 executed test cases passed (100.00%) on 1 out of total 1473 platforms (0.07%).
+2026-10-11 17:16:26,882 - twister - INFO - [32m1[39m test configurations executed on platforms, [36m0[39m test configurations were only built.
+2026-10-11 17:16:26,882 - twister - INFO - Saving reports...
+2026-10-11 17:16:26,882 - twister - INFO - Writing JSON report C:\IOMICO_Assigments\zephyr-course\twister-out\twister.json
+2026-10-11 17:16:26,882 - twister - INFO - Writing xunit report C:\IOMICO_Assigments\zephyr-course\twister-out\twister.xml...
+2026-10-11 17:16:26,889 - twister - INFO - Writing xunit report C:\IOMICO_Assigments\zephyr-course\twister-out\twister_report.xml...
+2026-10-11 17:16:26,889 - twister - INFO - Run completed

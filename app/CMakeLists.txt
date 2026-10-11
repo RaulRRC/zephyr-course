@@ -6,5 +6,5 @@ list(APPEND DTS_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/drivers/our_driver)
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 project(hello_world)
 
-target_sources(app PRIVATE src/main.cpp)
+target_sources(app PRIVATE src/main.c)
 add_subdirectory(drivers/our_driver)
