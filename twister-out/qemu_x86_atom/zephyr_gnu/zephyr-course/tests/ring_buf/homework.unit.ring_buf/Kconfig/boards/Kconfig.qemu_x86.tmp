@@ -1,2 +1,0 @@
-# Load board Kconfig descriptions.
-osource "C:/IOMICO_Assigments/deps/zephyr/boards/qemu/x86/Kconfig.qemu_x86"
