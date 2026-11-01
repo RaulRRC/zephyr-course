@@ -20,13 +20,23 @@ struct our_driver_data {
 static int channel_get_my_impl(const struct device *dev,
                                enum sensor_channel chan,
                                struct sensor_value *val){
+const struct our_driver_config *cfg = dev->config;
     struct our_driver_data *data = dev->data;
+    int ret;    
         /* Arbitrary channel choice for a dummy driver */
     if (chan != SENSOR_CHAN_PROX) {
         return -ENOTSUP;
     }
-    val->val1 = data->led_on ? 1 : 0;
-    val->val2 = 0;
+
+
+    data->led_on = 0;
+    ret = gpio_pin_set_dt(&cfg->led, data->led_on);
+
+    if (ret < 0) {
+        LOG_ERR("Failed to set LED (%d)", ret);
+        return ret;
+    }    
+
     LOG_INF("Hello From Channel Get, channel %d", chan);
     return 0;
 }
@@ -37,8 +47,10 @@ static int channel_fetch_my_impl(const struct device *dev,
     const struct our_driver_config *cfg = dev->config;
     struct our_driver_data *data = dev->data;
     int ret;
-    data->led_on = !data->led_on;
+
+    data->led_on = 1;
     ret = gpio_pin_set_dt(&cfg->led, data->led_on);
+
     if (ret < 0) {
         LOG_ERR("Failed to set LED (%d)", ret);
         return ret;
