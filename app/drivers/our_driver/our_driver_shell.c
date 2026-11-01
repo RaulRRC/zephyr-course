@@ -45,8 +45,8 @@ static int cmd_info_handler(const struct shell * sh, int argc, char** argv)
         shell_error(sh, "could not find device %s", argv[1]);
         return -EFAULT;
     }
+    shell_info(sh, "Device %s is ready to use", dev->name);
 
-    shell_info(sh, "Device %s is ready to use", argv[1]);
     return 0;
 }
 
