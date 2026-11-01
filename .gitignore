@@ -7,3 +7,9 @@ deps
 
 #vscode
 .vscode
+
+#Twister other outputs
+twister-out.1/
+twister-out.2/
+twister-out.3/
+twister-out.4/
