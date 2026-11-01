@@ -1,9 +1,9 @@
 <testsuites>
-	<testsuite name="homework.unit.ring_buf" time="96.47" timestamp="2026-10-11T19:25:11.552264" tests="8" failures="0" errors="0" skipped="0">
+	<testsuite name="homework.unit.ring_buf" timestamp="2026-11-01T16:05:11.982278" time="0.02" tests="8" failures="0" errors="0" skipped="0">
 		<properties>
-			<property name="version" value="v4.4.0" />
-			<property name="platform" value="qemu_x86/atom" />
-			<property name="architecture" value="x86" />
+			<property name="version" value="v4.5.0-962-g0534e997eacb" />
+			<property name="platform" value="native_sim/native" />
+			<property name="architecture" value="posix" />
 		</properties>
 		<testcase classname="homework.unit.ring_buf" name="homework.unit.ring_buf.ring_buf_init.fresh_state" time="0.00" />
 		<testcase classname="homework.unit.ring_buf" name="homework.unit.ring_buf.ring_buf_init.reinit_clears_state" time="0.00" />

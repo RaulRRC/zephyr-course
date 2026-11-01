@@ -1,10 +1,10 @@
 {
     "environment":{
-        "os":"Windows",
-        "zephyr_version":"v4.4.0",
+        "os":"Linux",
+        "zephyr_version":"v4.5.0-962-g0534e997eacb",
         "toolchain":"zephyr/gnu",
-        "commit_date":"2026-04-14T14:45:49-05:00",
-        "run_date":"2026-10-11T23:25:10+00:00",
+        "commit_date":"2026-10-30T12:51:01-04:00",
+        "run_date":"2026-11-01T21:05:10+00:00",
         "options":{
             "help":null,
             "zephyr_base":null,
@@ -14,30 +14,29 @@
                 "tests/ring_buf"
             ],
             "platform":[
-                "qemu_x86"
+                "native_sim"
             ],
             "enable_coverage":true,
             "coverage":true,
-            "gcov_tool":"C:\\Users\\rrive\\zephyr-sdk-1.0.1\\gnu\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcov.exe",
             "coverage_basedir":"app/modules/ring_buf",
             "coverage_platform":[
-                "qemu_x86"
+                "native_sim"
             ]
         }
     },
     "testsuites":[
         {
             "name":"homework.unit.ring_buf",
-            "arch":"x86",
-            "platform":"qemu_x86/atom",
-            "path":"..\\..\\zephyr-course\\tests\\ring_buf",
-            "run_id":"018b245496f768b0d9412d9086429987",
+            "arch":"posix",
+            "platform":"native_sim/native",
+            "path":"../tests/ring_buf",
+            "run_id":"85b8088619bb484b145d73a4b4911db6",
             "runnable":true,
             "retries":0,
-            "toolchain":"zephyr/gnu",
+            "toolchain":"host/gnu",
             "status":"passed",
-            "execution_time":"96.47",
-            "build_time":"14.17",
+            "execution_time":"0.02",
+            "build_time":"14.85",
             "testcases":[
                 {
                     "identifier":"homework.unit.ring_buf.ring_buf_init.fresh_state",

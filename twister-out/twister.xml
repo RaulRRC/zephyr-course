@@ -1,8 +1,8 @@
 <testsuites>
-	<testsuite name="qemu_x86/atom" timestamp="2026-10-11T19:25:11.552264" time="96.47" tests="1" failures="0" errors="0" skipped="0">
+	<testsuite name="native_sim/native" timestamp="2026-11-01T16:05:11.982278" time="0.02" tests="1" failures="0" errors="0" skipped="0">
 		<properties>
-			<property name="version" value="v4.4.0" />
+			<property name="version" value="v4.5.0-962-g0534e997eacb" />
 		</properties>
-		<testcase classname="qemu_x86/atom:homework.unit.ring_buf" name="homework.unit.ring_buf" time="96.47" />
+		<testcase classname="native_sim/native:homework.unit.ring_buf" name="homework.unit.ring_buf" time="0.02" />
 	</testsuite>
 </testsuites>
